@@ -1,18 +1,6 @@
 # 🌟 Portfolio Website
 
-Welcome to my personal portfolio! This site showcases my projects, certificates, and skills — all designed to reflect my journey as a web developer and UI/UX enthusiast.
-
----
-
-## 🚀 Live Demo
-[![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-brightgreen)](https://sunayanapamula-gif.github.io/portfolio-website/)
-[![Weather App](https://img.shields.io/badge/Project-Weather%20App-blue)](https://sunayanapamula-gif.github.io/weather-app/)
-
----
-
-## 📂 Projects
-- **Weather App** → A dynamic app that fetches real-time weather data and displays it with a clean UI.  
-- More projects coming soon...
+Welcome to my portfolio! This project showcases my skills, certificates, and live projects with a polished UI.
 
 ---
 
@@ -21,7 +9,21 @@ Here are some of my achievements:
 
 - [![Web Development](https://img.shields.io/badge/Certificate-Web%20Development-blue)](certificates/web-development.pdf)  
 - [![JavaScript](https://img.shields.io/badge/Certificate-JavaScript-yellow)](certificates/javascript.pdf)  
-- [![UI/UX](https://img.shields.io/badge/Certificate-UI%2FUX-green)](certificates/uiux.pdf)
+- [![UI/UX](https://img.shields.io/badge/Certificate-UI%2FUX-green)](certificates/uiux.pdf)  
+
+---
+
+## 📸 Screenshots
+Visual previews of my portfolio sections and projects:
+
+### Portfolio Homepage
+[![Portfolio Homepage](images/portfolio-home.png)](https://sunayanapamula-gif.github.io/portfolio-website/)
+
+### Certificates Section
+[![Certificates](images/certificates.png)](certificates/web-development.pdf)
+
+### Weather App
+[![Weather App](images/weather-app.png)](https://sunayanapamula-gif.github.io/weather-app/)
 
 ---
 
@@ -33,29 +35,15 @@ Here are some of my achievements:
 
 ---
 
-## ✨ Features
-- Interactive portfolio showcasing projects and certificates  
-- Recruiter-friendly layout with clear navigation  
-- Live demos and source code links for each project  
-
----
-
-## 📸 Screenshots
-
-### Portfolio Homepage
-![Portfolio Homepage](images/portfolio-home.png)
-
-### Certificates Section
-![Certificates](images/certificates.png)
-
-### Weather App
-![Weather App](images/weather-app.png)
+## 🚀 Features
+- Responsive design for desktop and mobile  
+- Certificates showcased with badges and PDF links  
+- Screenshots for quick visual previews  
+- Live demo links for recruiters  
 
 ---
 
 ## 📬 Contact
-- Email: **your-email@example.com**  
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)  
-- GitHub: [sunayanapamula-gif](https://github.com/sunayanapamula-gif)
-
----
+- **Email:** your-email@example.com  
+- **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/yourprofile)  
+- **GitHub:** [Your GitHub](https://github.com/sunayanapamula-gif)  
