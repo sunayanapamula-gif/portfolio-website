@@ -755,3 +755,71 @@ body.dark-mode {
     opacity: 0; /* fade out */
   }
 }
+
+.project-image, .certificate-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #007acc;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.project-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007acc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.project-link:hover {
+  background-color: #005fa3;
+} 
+
+.glass {
+  position: relative;
+  width: 100%;
+  min-height: 150px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6px);
+  overflow: hidden;
+}
+#mirror-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(255, 0, 255, 0.6);
+}
