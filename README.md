@@ -32,36 +32,33 @@ Visual previews of my portfolio sections and projects:
 
 ## 📜 Certificates
 
-### UNICEF – Digital Productivity with AI
-![UNICEF Certificate Screenshot](images/unicef-cert.png)
+<section id="certificates">
+  <h2>Certificates</h2>
+  <div class="card-container">
 
-<p align="left">
-  <a href="certificate/DigitalProductivity_AI_UNICEF_2025.pdf" target="_blank">
-    <img src="https://img.shields.io/badge/View%20Certificate-Digital%20Productivity%20AI-blue?style=for-the-badge" />
-  </a>
-</p>
+    <!-- NPTEL Certificate -->
+    <div class="card">
+      <h3>NPTEL Certificate – Data Analysis & Decision Making III</h3>
+      <p>Completed a 12-week course from IIT Kanpur with a consolidated score of 58%.</p>
+      <a href="certificates/DataAnalysis_DecisionMaking_NPTEL_IITKanpur_2024.pdf" target="_blank" class="project-link">📄 View Certificate</a>
+    </div>
 
----
+    <!-- UNICEF Certificate -->
+    <div class="card">
+      <h3>UNICEF – Digital Productivity with AI</h3>
+      <p>Completed Passport to Earning (P2E) Skills course with a score of 100%.</p>
+      <a href="certificates/DigitalProductivity_AI_UNICEF_2025.pdf" target="_blank" class="project-link">📄 View Certificate</a>
+    </div>
 
-### NPTEL – Data Analysis & Decision Making
-![NPTEL Certificate Screenshot](images/nptel-cert.png)
+    <!-- Android Developer Certificate -->
+    <div class="card">
+      <h3>Android Developer Internship Certificate</h3>
+      <p>Hands-on mobile app development experience during a 10-week internship.</p>
+      <a href="certificates/AndroidDeveloper_Internship_AICTE_EduSkills_2025.pdf" target="_blank" class="project-link">📄 View Certificate</a>
+    </div>
 
-<p align="left">
-  <a href="certificate/DataAnalysis_DecisionMaking_NPTEL_IITKanpur_2024.pdf" target="_blank">
-    <img src="https://img.shields.io/badge/View%20Certificate-Data%20Analysis%20Decision%20Making-yellow?style=for-the-badge" />
-  </a>
-</p>
-
----
-
-### Android Developer Internship
-![Android Certificate Screenshot](images/android-cert.png)
-
-<p align="left">
-  <a href="certificate/AndroidDeveloper_Internship_AICTE_EduSkills_2025.pdf" target="_blank">
-    <img src="https://img.shields.io/badge/View%20Certificate-Android%20Developer%20Internship-green?style=for-the-badge" />
-  </a>
-</p>
+  </div>
+</section>
 
 ### Weather App
 [![Weather App](images/weather-app.png)](https://sunayanapamula-gif.github.io/weather-app/)
