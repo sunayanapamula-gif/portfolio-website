@@ -828,3 +828,8 @@ nav a:hover {
   width: 50px;   /* decrease size */
   height: 50px;  /* keep square ratio */
 }
+.skill-card img {
+  width: 40px !important;
+  height: 40px !important;
+  object-fit: contain;
+}
