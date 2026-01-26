@@ -35,6 +35,8 @@ Visual previews of my portfolio sections and projects:
 ### Portfolio Homepage  
 [![Portfolio Homepage](images/portfolio-home.png)](https://sunayanapamula-gif.github.io/portfolio-website/)
 
+### Certificates Section  
+![Certificates Section Screenshot](images/certificates.png)
 <section id="certificates">
   <h2>📜 Certificates</h2>
   <div class="card-container">
