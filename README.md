@@ -36,7 +36,7 @@ Visual previews of my portfolio sections and projects:
 [![Portfolio Homepage](images/portfolio-home.png)](https://sunayanapamula-gif.github.io/portfolio-website/)
 
 ### Certificates Section  
-![Certificates Section Screenshot](images/certificates.png)(https://raw.githubusercontent.com/sunayanapamula-gif/portfolio-website/main/images/certificates.png/)
+[![Certificates Section Screenshot](images/certificates.png)](https://raw.githubusercontent.com/sunayanapamula-gif/portfolio-website/main/images/certificates.png)
 
 ### Weather App  
 [![Weather App](images/weather-app.png)](https://sunayanapamula-gif.github.io/weather-app/)
