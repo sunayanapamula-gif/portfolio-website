@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Random horizontal position inside the glass
         heart.style.position = "absolute";
-        heart.style.left = Math.random() * 80 + "%";
+       heart.style.left = Math.random() * 100 + "%";
 
         glass.appendChild(heart);
 
