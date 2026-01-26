@@ -10,6 +10,7 @@ Here are some of my achievements:
 - [![Digital Productivity with AI](https://img.shields.io/badge/Certificates-Digital%20Productivity%20AI-blue)](certificates/DigitalProductivity_AI_UNICEF_2025.pdf)  
 - [![Data Analysis & Decision Making](https://img.shields.io/badge/Certificates-Data%20Analysis%20Decision%20Making-yellow)](certificates/DataAnalysis_DecisionMaking_NPTEL_IITKanpur_2024.pdf)  
 - [![Android Developer Internship](https://img.shields.io/badge/Certificates-Android%20Developer%20Internship-green)](certificates/AndroidDeveloper_Internship_AICTE_EduSkills_2025.pdf)
+
 ---
 
 ## 📸 Screenshots
@@ -19,7 +20,7 @@ Visual previews of my portfolio sections and projects:
 [![Portfolio Homepage](images/portfolio-home.png)](https://sunayanapamula-gif.github.io/portfolio-website/)
 
 ### Certificates Section
-[![Certificates](images/certificates.png)](certificates/web-development.pdf)
+![Certificates](images/certificates.png)
 
 ### Weather App
 [![Weather App](images/weather-app.png)](https://sunayanapamula-gif.github.io/weather-app/)
@@ -45,4 +46,4 @@ Visual previews of my portfolio sections and projects:
 ## 📬 Contact
 - **Email:** your-email@example.com  
 - **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/yourprofile)  
-- **GitHub:** [Your GitHub](https://github.com/sunayanapamula-gif)  
+- **GitHub:** [Your GitHub](https://github.com/sunayanapamula-gif)
