@@ -62,6 +62,8 @@ Visual previews of my portfolio sections and projects:
 
   </div>
 </section>
+
+
 ### Weather App  
 [![Weather App](images/weather-app.png)](https://sunayanapamula-gif.github.io/weather-app/)
 
