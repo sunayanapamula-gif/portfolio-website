@@ -823,3 +823,8 @@ nav a:hover {
   font-weight: bold;
   text-shadow: 0 0 8px rgba(255, 0, 255, 0.6);
 }
+
+.skill-card img {
+  width: 50px;   /* decrease size */
+  height: 50px;  /* keep square ratio */
+}
