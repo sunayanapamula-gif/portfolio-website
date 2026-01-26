@@ -7,9 +7,9 @@ Welcome to my portfolio! This project showcases my skills, certificates, and liv
 ## 📜 Certificates
 Here are some of my achievements:
 
-- [![Web Development](https://img.shields.io/badge/Certificate-Web%20Development-blue)](certificates/web-development.pdf)  
-- [![JavaScript](https://img.shields.io/badge/Certificate-JavaScript-yellow)](certificates/javascript.pdf)  
-- [![UI/UX](https://img.shields.io/badge/Certificate-UI%2FUX-green)](certificates/uiux.pdf)  
+- [![Web Development](https://img.shields.io/badge/Certificates-Web%20Development-blue)](certificates/web-development.pdf)  
+- [![JavaScript](https://img.shields.io/badge/Certificates-JavaScript-yellow)](certificates/javascript.pdf)  
+- [![UI/UX](https://img.shields.io/badge/Certificates-UI%2FUX-green)](certificates/uiux.pdf)  
 
 ---
 
