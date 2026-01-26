@@ -13,26 +13,28 @@ document.addEventListener("DOMContentLoaded", () => {
   const glass = document.querySelector(".glass");
 
   if (mirrorInput && mirrorText) {
+    // Show text exactly as typed
     mirrorInput.addEventListener("input", () => {
-      // Show text exactly as typed
       mirrorText.textContent = mirrorInput.value || "Your text appears here…";
     });
 
-   // Magical hearts on Enter
-mirrorInput.addEventListener("keydown", (event) => {
-  if (event.key === "Enter" && glass) {
-    const heart = document.createElement("div");
-    heart.classList.add("heart");
-    heart.textContent = "💖";
+    // Magical hearts on Enter
+    mirrorInput.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" && glass) {
+        const heart = document.createElement("div");
+        heart.classList.add("heart");
+        heart.textContent = "💖";
 
-    // Random horizontal position inside the glass
-    heart.style.position = "absolute";
-    heart.style.left = Math.random() * 80 + "%";
-    heart.style.bottom = "0"; // start at bottom
+        // Random horizontal position inside the glass
+        heart.style.position = "absolute";
+        heart.style.left = Math.random() * 80 + "%";
+        heart.style.bottom = "0"; // start at bottom
 
-    glass.appendChild(heart);
+        glass.appendChild(heart);
 
-    // Remove after animation ends
-    setTimeout(() => heart.remove(), 3000); // match animation duration
+        // Remove after animation ends
+        setTimeout(() => heart.remove(), 3000); // match animation duration
+      }
+    });
   }
 });
