@@ -696,3 +696,19 @@ heart.addEventListener("animationend", () => heart.remove());
 .project-link:hover {
   background-color: #005fa3;
 }
+
+.heart {
+  font-size: 24px;
+  animation: floatUp 3s ease-out forwards;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-150px); /* move upwards */
+    opacity: 0; /* fade out */
+  }
+}
