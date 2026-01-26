@@ -7,10 +7,9 @@ Welcome to my portfolio! This project showcases my skills, certificates, and liv
 ## 📜 Certificates
 Here are some of my achievements:
 
-- [![Web Development](https://img.shields.io/badge/Certificates-Web%20Development-blue)](certificates/web-development.pdf)  
-- [![JavaScript](https://img.shields.io/badge/Certificates-JavaScript-yellow)](certificates/javascript.pdf)  
-- [![UI/UX](https://img.shields.io/badge/Certificates-UI%2FUX-green)](certificates/uiux.pdf)  
-
+- [![Digital Productivity with AI](https://img.shields.io/badge/Certificates-Digital%20Productivity%20AI-blue)](certificates/DigitalProductivity_AI_UNICEF_2025.pdf)  
+- [![Data Analysis & Decision Making](https://img.shields.io/badge/Certificates-Data%20Analysis%20Decision%20Making-yellow)](certificates/DataAnalysis_DecisionMaking_NPTEL_IITKanpur_2024.pdf)  
+- [![Android Developer Internship](https://img.shields.io/badge/Certificates-Android%20Developer%20Internship-green)](certificates/AndroidDeveloper_Internship_AICTE_EduSkills_2025.pdf)
 ---
 
 ## 📸 Screenshots
