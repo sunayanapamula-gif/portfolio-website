@@ -5,7 +5,7 @@ Welcome to my portfolio! This project showcases my skills, certificates, and liv
 ---
 ## 🧑‍💻 Skills
 
-<p align="center">
+<p align="left">
   <img src="icons/html.png" alt="HTML5" width="60" height="60" />
   <img src="icons/css.png" alt="CSS3" width="60" height="60" />
   <img src="icons/js.png" alt="JavaScript" width="60" height="60" />
@@ -18,9 +18,9 @@ Welcome to my portfolio! This project showcases my skills, certificates, and liv
 ## 📜 Certificates
 Here are some of my achievements:
 
-- [![Digital Productivity with AI](https://img.shields.io/badge/Certificates-Digital%20Productivity%20AI-blue)](certificates/DigitalProductivity_AI_UNICEF_2025.pdf)  
-- [![Data Analysis & Decision Making](https://img.shields.io/badge/Certificates-Data%20Analysis%20Decision%20Making-yellow)](certificates/DataAnalysis_DecisionMaking_NPTEL_IITKanpur_2024.pdf)  
-- [![Android Developer Internship](https://img.shields.io/badge/Certificates-Android%20Developer%20Internship-green)](certificates/AndroidDeveloper_Internship_AICTE_EduSkills_2025.pdf)
+- [![Digital Productivity with AI](https://img.shields.io/badge/Certificates-Digital%20Productivity%20AI-blue)](certificate/DigitalProductivity_AI_UNICEF_2025.pdf)  
+- [![Data Analysis & Decision Making](https://img.shields.io/badge/Certificates-Data%20Analysis%20Decision%20Making-yellow)](certificate/DataAnalysis_DecisionMaking_NPTEL_IITKanpur_2024.pdf)  
+- [![Android Developer Internship](https://img.shields.io/badge/Certificates-Android%20Developer%20Internship-green)](certificate/AndroidDeveloper_Internship_AICTE_EduSkills_2025.pdf)
 
 ---
 
