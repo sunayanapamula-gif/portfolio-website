@@ -827,15 +827,40 @@ nav a:hover {
 .skill-card img {
   width: 50px;   /* decrease size */
   height: 50px;  /* keep square ratio */
-}
-.skill-card img {
-  width: 40px !important;
-  height: 40px !important;
-  object-fit: contain;
+
 }
 
 .skill-card img {
   width: 40px !important;
   height: 40px !important;
   object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .about-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .skill-card img {
+    width: 30px !important;
+    height: 30px !important;
+  }
 }
