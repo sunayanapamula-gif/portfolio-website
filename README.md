@@ -30,17 +30,35 @@ Visual previews of my portfolio sections and projects:
 ### Portfolio Homepage
 [![Portfolio Homepage](images/portfolio-home.png)](https://sunayanapamula-gif.github.io/portfolio-website/)
 
-### Certificates Section
-![Certificates Screenshot](images/certificates.png)
+## 📜 Certificates
 
-<p align="center">
-  <a href="certificates/DigitalProductivity_AI_UNICEF_2025.pdf" target="_blank">
+### UNICEF – Digital Productivity with AI
+![UNICEF Certificate Screenshot](images/unicef-cert.png)
+
+<p align="left">
+  <a href="certificate/DigitalProductivity_AI_UNICEF_2025.pdf" target="_blank">
     <img src="https://img.shields.io/badge/View%20Certificate-Digital%20Productivity%20AI-blue?style=for-the-badge" />
   </a>
-  <a href="certificates/DataAnalysis_DecisionMaking_NPTEL_IITKanpur_2024.pdf" target="_blank">
+</p>
+
+---
+
+### NPTEL – Data Analysis & Decision Making
+![NPTEL Certificate Screenshot](images/nptel-cert.png)
+
+<p align="left">
+  <a href="certificate/DataAnalysis_DecisionMaking_NPTEL_IITKanpur_2024.pdf" target="_blank">
     <img src="https://img.shields.io/badge/View%20Certificate-Data%20Analysis%20Decision%20Making-yellow?style=for-the-badge" />
   </a>
-  <a href="certificates/AndroidDeveloper_Internship_AICTE_EduSkills_2025.pdf" target="_blank">
+</p>
+
+---
+
+### Android Developer Internship
+![Android Certificate Screenshot](images/android-cert.png)
+
+<p align="left">
+  <a href="certificate/AndroidDeveloper_Internship_AICTE_EduSkills_2025.pdf" target="_blank">
     <img src="https://img.shields.io/badge/View%20Certificate-Android%20Developer%20Internship-green?style=for-the-badge" />
   </a>
 </p>
