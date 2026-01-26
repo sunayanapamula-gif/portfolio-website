@@ -1035,3 +1035,60 @@ body.dark-mode #theme-toggle {
     height: 40px;
   }
 }
+
+@media (max-width: 768px) {
+  /* Reduce section padding */
+  section {
+    padding: 20px 10px;
+    margin-bottom: 30px;
+  }
+
+  /* Shrink headings */
+  section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+
+  /* Navigation spacing */
+  nav ul {
+    gap: 8px;
+    font-size: 0.9rem;
+  }
+
+  /* About section image */
+  .about-image img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  /* Skill icons smaller */
+  .skill-card img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  /* Certificate and project cards tighter */
+  .card,
+  .project-card {
+    width: 90%;
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+
+  /* Mirror writing box */
+  .glass {
+    padding: 12px;
+    min-height: 100px;
+  }
+
+  #mirror-text {
+    font-size: 1rem;
+  }
+
+  /* Theme toggle button */
+  #theme-toggle {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
