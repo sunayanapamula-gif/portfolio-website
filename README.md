@@ -25,13 +25,13 @@ Visual previews of my portfolio sections and projects:
 ![Certificates Screenshot](images/certificates.png)
 
 <p align="center">
-  <a href="certificate/DigitalProductivity_AI_UNICEF_2025.pdf">
+  <a href="certificate/DigitalProductivity_AI_UNICEF_2025.pdf" target="_blank">
     <img src="https://img.shields.io/badge/View%20Certificate-Digital%20Productivity%20AI-blue?style=for-the-badge" />
   </a>
-  <a href="certificate/DataAnalysis_DecisionMaking_NPTEL_IITKanpur_2024.pdf">
+  <a href="certificate/DataAnalysis_DecisionMaking_NPTEL_IITKanpur_2024.pdf" target="_blank">
     <img src="https://img.shields.io/badge/View%20Certificate-Data%20Analysis%20Decision%20Making-yellow?style=for-the-badge" />
   </a>
-  <a href="certificate/AndroidDeveloper_Internship_AICTE_EduSkills_2025.pdf">
+  <a href="certificate/AndroidDeveloper_Internship_AICTE_EduSkills_2025.pdf" target="_blank">
     <img src="https://img.shields.io/badge/View%20Certificate-Android%20Developer%20Internship-green?style=for-the-badge" />
   </a>
 </p>
