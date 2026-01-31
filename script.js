@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const glass = document.querySelector(".glass");
 
   if (mirrorInput && mirrorText) {
+    // Show text exactly as typed
     mirrorInput.addEventListener("input", () => {
-      // Show text exactly as typed
       mirrorText.textContent = mirrorInput.value || "Your text appears here…";
     });
 
@@ -28,11 +28,12 @@ document.addEventListener("DOMContentLoaded", () => {
         // Random horizontal position inside the glass
         heart.style.position = "absolute";
         heart.style.left = Math.random() * 80 + "%";
+        heart.style.bottom = "0"; // start at bottom
 
         glass.appendChild(heart);
 
-        // Remove after animation
-        setTimeout(() => heart.remove(), 1500);
+        // Remove after animation ends
+        setTimeout(() => heart.remove(), 3000); // match animation duration
       }
     });
   }
