@@ -64,5 +64,3 @@ Visual previews of my portfolio sections and projects:
 - **Email:** sunayanapamula@gmail.com  
 - **LinkedIn:** [Sunayana Pamula](https://www.linkedin.com/in/sunayanapamula)  
 - **GitHub:** [sunayanapamula-gif](https://github.com/sunayanapamula-gif)
-
----
