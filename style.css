@@ -637,3 +637,57 @@ body.dark-mode .mirror-text {
   margin: 10px 0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
+
+/* Mirror Text Section */
+.mirror-text {
+  font-size: 1.5rem;
+  font-family: "Segoe Script", cursive;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(255,255,255,0.8),
+               0 0 15px #ff65a3,
+               0 0 25px #ff65a3;
+  user-select: none;
+  white-space: pre-wrap;
+  animation: glowPulse 2s infinite;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Glow Pulse animation */
+@keyframes glowPulse {
+  0%   { text-shadow: 0 0 5px #fff, 0 0 15px #ff65a3; }
+  50%  { text-shadow: 0 0 10px #fff, 0 0 25px #ff65a3; }
+  100% { text-shadow: 0 0 5px #fff, 0 0 15px #ff65a3; }
+}
+
+/* Heart Animation */
+.heart {
+  font-size: 24px;
+  animation: floatUp 3s ease-out forwards;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-150px);
+    opacity: 0;
+  }
+}
+
+/*
