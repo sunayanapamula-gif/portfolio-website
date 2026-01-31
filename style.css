@@ -1,80 +1,176 @@
-/* Project Card Styling */
-.project-card {
-  background: #fff;
-  border-radius: 12px;
-  padding: 20px;
-  margin: 20px 0;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
+/* Global Reset & Font */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: background 0.5s, color 0.5s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+body.dark-mode header {
+  background: linear-gradient(135deg, #333, #111);
+}
+
+body.dark-mode #hero {
+  background: linear-gradient(135deg, #222, #111);
+}
+
+body.dark-mode section {
+  background: #2a2a2a;
+  color: #f0f0f0;
+  box-shadow: 0 4px 10px rgba(255,255,255,0.1);
+}
+
+body.dark-mode footer {
+  background: #111;
+  color: #f0f0f0;
+}
+
+/* Dark Mode Toggle Button */
+#theme-toggle {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background: #ff65a3;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  z-index: 1000;
+  transition: background 0.3s;
+}
+
+#theme-toggle:hover {
+  background: #ff7eb9;
+}
+
+/* Hero Section */
+#hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #ff7eb9, #ff65a3);
+  color: white;
+}
+
+#hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+#hero h2 span {
+  color: #ffe0f0;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: white;
+  color: #ff65a3;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background: #ffe0f0;
+  color: #333;
+}
+
+/* Header & Navigation */
+header {
+  background: linear-gradient(135deg, #ff7eb9, #ff65a3);
+  color: white;
+  padding: 20px 0;
   text-align: center;
 }
 
-.project-card:hover {
-  transform: translateY(-5px);
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
 }
 
-.project-image {
-  width: 100%;
-  max-width: 500px;
-  border-radius: 10px;
-  margin: 15px 0;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+nav {
+  margin-top: 10px;
 }
 
-.project-link {
-  display: inline-block;
-  margin: 8px;
-  padding: 10px 16px;
-  background: linear-gradient(90deg, #6a11cb, #2575fc);
-  color: #fff;
-  font-weight: 600;
+nav a {
+  color: white;
   text-decoration: none;
-  border-radius: 8px;
-  transition: all 0.3s ease;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
-.project-link:hover {
-  background: linear-gradient(90deg, #2575fc, #6a11cb);
-  transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+nav a:hover {
+  color: #ffe0f0;
 }
 
-/* Tech Stack Badges */
-.tech-stack {
-  margin: 12px 0;
+/* Section Styling */
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-.badge {
-  display: inline-block;
-  background: #f9f9f9;
-  color: #333;
-  padding: 6px 12px;
-  margin: 4px;
-  border-radius: 6px;
-  font-size: 0.9em;
-  font-weight: 600;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease, background 0.2s ease;
+section h2 {
+  color: #ff65a3;
+  border-bottom: 2px solid #ff65a3;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
 }
 
-.badge:hover {
-  transform: scale(1.05);
-  background: #ececec;
+/* Mirror Text Section */
+.mirror-text {
+  font-size: 1.5rem;
+  font-family: "Segoe Script", cursive;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(255,255,255,0.8),
+               0 0 15px #ff65a3,
+               0 0 25px #ff65a3;
+  user-select: none;
+  white-space: pre-wrap;
+  animation: glowPulse 2s infinite;
 }
 
-/* Heart Animation */
-.heart {
-  font-size: 24px;
-  animation: floatUp 3s ease-out forwards;
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
-@keyframes floatUp {
-  0% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-150px);
-    opacity: 0;
-  }
+/* Glow Pulse animation */
+@keyframes glowPulse {
+  0%   { text-shadow: 0 0 5px #fff, 0 0 15px #ff65a3; }
+  50%  { text-shadow: 0 0 10px #fff, 0 0 25px #ff65a3; }
+  100% { text-shadow: 0 0 5px #fff, 0 0 15px #ff65a3; }
 }
