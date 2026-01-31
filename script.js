@@ -17,8 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     mirrorInput.addEventListener("input", () => {
       mirrorText.textContent = mirrorInput.value || "Your text appears here…";
     });
-
-    // Magical hearts on Enter
+        // Magical hearts on Enter
     mirrorInput.addEventListener("keydown", (event) => {
       if (event.key === "Enter" && glass) {
         const heart = document.createElement("div");
