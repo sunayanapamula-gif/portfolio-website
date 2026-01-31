@@ -10,7 +10,6 @@ Welcome to my portfolio! This project showcases my skills, certificates, and liv
   <img src="icons/html.png" alt="HTML5" width="60" height="60" />
   <img src="icons/css.png" alt="CSS3" width="60" height="60" />
   <img src="icons/js.png" alt="JavaScript" width="60" height="60" />
-  <img src="icons/react.png" alt="React" width="60" height="60" />
 </p>
 
 - **HTML5** – Semantic structure, forms, accessibility  
