@@ -174,3 +174,20 @@ section h2 {
   50%  { text-shadow: 0 0 10px #fff, 0 0 25px #ff65a3; }
   100% { text-shadow: 0 0 5px #fff, 0 0 15px #ff65a3; }
 }
+
+/* Heart Animation */
+.heart {
+  font-size: 24px;
+  animation: floatUp 3s ease-out forwards;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-150px);
+    opacity: 0;
+  }
+}
