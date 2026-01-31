@@ -37,4 +37,20 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
+
+  // Certificates: open PDF in new tab
+  function openCertificate(path) {
+    window.open(path, "_blank");
+  }
+
+  // Attach event listeners to certificate buttons if they exist
+  const certificateButtons = document.querySelectorAll("[data-certificate]");
+  certificateButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      const path = button.getAttribute("data-certificate");
+      if (path) {
+        openCertificate(path);
+      }
+    });
+  });
 });
