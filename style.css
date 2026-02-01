@@ -708,3 +708,30 @@ body.dark-mode .mirror-text {
   background: #ff7eb9;
   transform: scale(1.05);
 }
+
+/* To-Do App Project Card */
+#projects .project-card h3 {
+  color: #4cafef; /* blue accent for To-Do App title */
+}
+
+#projects .project-card img.project-image {
+  border: 2px solid #4cafef; /* highlight screenshot with blue border */
+  border-radius: 8px;
+}
+
+#projects .project-card a.project-link {
+  background: #4cafef;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+  display: inline-block;
+  margin: 5px;
+}
+
+#projects .project-card a.project-link:hover {
+  background: #6ec6ff;
+  transform: scale(1.05);
+}
