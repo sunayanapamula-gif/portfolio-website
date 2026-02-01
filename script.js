@@ -37,4 +37,17 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
+
+  // Certificates: open PDF in new tab
+  const certificateButtons = document.querySelectorAll("[data-certificate]");
+  certificateButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      const path = button.getAttribute("data-certificate");
+      if (path) {
+        window.open(path, "_blank"); // open certificate in new tab
+      } else {
+        console.error("No certificate path found for button:", button);
+      }
+    });
+  });
 });
