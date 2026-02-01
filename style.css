@@ -735,3 +735,15 @@ body.dark-mode .mirror-text {
   background: #6ec6ff;
   transform: scale(1.05);
 }
+
+.project-link {
+  display: inline-block;
+  margin: 8px;
+  color: #4cafef;   /* visible color */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
