@@ -26,10 +26,7 @@ Visual previews of my portfolio sections and projects:
 [![Portfolio Homepage](images/portfolio-home.png)](https://sunayanapamula-gif.github.io/portfolio-website/)
 
 ### Certificates Section  
-![Certificates Section Screenshot](images/portfolio-certificate.png)
-
-### Certificates Section  
-[![Certificates Section Screenshot](images/certificates.png)](https://sunayanapamula-gif.github.io/portfolio-website/#certificates)
+[![Certificates Section Screenshot](images/portfolio-certificate.png)](https://sunayanapamula-gif.github.io/portfolio-website/#certificates)
 
 - [📄 View Android Developer Internship – AICTE EduSkills (2025)](certificates/AndroidDeveloper_Internship_AICTE_EduSkills_2025.pdf)  
 - [📄 View Data Analysis & Decision Making – NPTEL IIT Kanpur (2024)](certificates/DataAnalysis_DecisionMaking_NPTEL_IITKanpur_2024.pdf)  
