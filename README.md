@@ -27,6 +27,10 @@ Visual previews of my portfolio sections and projects:
 
 ### Certificates Section  
 [![Certificates Section Screenshot](images/portfolio-certificate.png)](https://sunayanapamula-gif.github.io/portfolio-website/#certificates)
+- [📄 View Android Developer Internship – AICTE EduSkills (2025)](certificates/AndroidDeveloper_Internship_AICTE_EduSkills_2025.pdf)  
+- [📄 View Data Analysis & Decision Making – NPTEL IIT Kanpur (2024)](certificates/DataAnalysis_DecisionMaking_NPTEL_IITKanpur_2024.pdf)  
+- [📄 View Digital Productivity with AI – UNICEF (2025)](certificates/DigitalProductivity_AI_UNICEF_2025.pdf)
+
 
 ### Weather App  
 [![Weather App](images/weather-app.png)](https://sunayanapamula-gif.github.io/weather-app/)
