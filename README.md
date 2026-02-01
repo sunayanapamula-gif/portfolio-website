@@ -31,6 +31,10 @@ Visual previews of my portfolio sections and projects:
 ### Weather App  
 [![Weather App](images/weather-app.png)](https://sunayanapamula-gif.github.io/weather-app/)
 
+### To-Do App  
+[![To-Do App](images/todo-app-screenshot.png)](https://sunayanapamula-gif.github.io/to-do-app/)
+
+
 ---
 
 ## 🛠️ Technologies Used
