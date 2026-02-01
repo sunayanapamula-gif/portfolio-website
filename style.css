@@ -689,3 +689,22 @@ body.dark-mode .mirror-text {
     opacity: 0;
   }
 }
+
+/* Certificate Buttons */
+#certificates button {
+  background: #ff65a3;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+#certificates button:hover {
+  background: #ff7eb9;
+  transform: scale(1.05);
+}
